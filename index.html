@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure WSN Routing and Intrusion Detection Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Wireless Sensor Network Security Dashboard</h1>
+    <div id="controls">
+        <button onclick="simulateNodes()">Simulate Nodes</button>
+        <button onclick="simulateSecureRouting()">Secure Routing</button>
+        <button onclick="simulateIntrusionDetection()">Intrusion Detection</button>
+        <button onclick="simulateTrustManagement()">Trust Management</button>
+        <button onclick="simulateDataAggregation()">Data Aggregation</button>
+    </div>
+    <div id="alertBox"></div>
+    <canvas id="networkCanvas" width="800" height="500"></canvas>
+
+    <script src="script.js"></script>
+</body>
+</html>
